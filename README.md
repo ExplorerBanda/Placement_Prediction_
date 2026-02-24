@@ -1,11 +1,11 @@
-# 🎯 Campus Placement Prediction using Machine Learning
+# Campus Placement Prediction using Machine Learning
 
 An end-to-end Machine Learning project that predicts student placement outcomes using academic and aptitude indicators.  
 The project includes an interactive **Streamlit dashboard** for visualization and real-time prediction.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Campus placements are important indicators of student readiness and institutional performance.  
 This project uses Machine Learning classification algorithms to predict whether a student is likely to be placed based on:
@@ -17,14 +17,14 @@ Multiple ML models were evaluated, and the best-performing model was deployed th
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Institutions often lack early predictive insights into placement readiness.  
 This system helps analyze academic data and provides placement predictions using data-driven techniques.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Scikit-learn**
@@ -36,7 +36,7 @@ This system helps analyze academic data and provides placement predictions using
 
 ---
 
-## 📊 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 1. Data Collection from dataset (`placement.csv`)
 2. Data Cleaning & Preprocessing
@@ -48,13 +48,13 @@ This system helps analyze academic data and provides placement predictions using
 - Logistic Regression (~82%)
 - Support Vector Machine (~84%)
 - Decision Tree (~86%)
-- ✅ K-Nearest Neighbors (~90%) *(Selected Model)*
+- K-Nearest Neighbors (~90%) *(Selected Model)*
 
 The trained model is saved using **Pickle** and integrated into the Streamlit dashboard.
 
 ---
 
-## 📈 Dashboard Features
+##  Dashboard Features
 
 - Real-time placement prediction
 - Interactive CGPA & IQ input sliders
